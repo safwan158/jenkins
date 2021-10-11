@@ -57,6 +57,7 @@ pipeline {
           steps {
             sh 'echo Hello World Again!'
             sh 'echo ${SAMPLE_URL}'
+            sh 'mvn --version'
           }
         }
         
